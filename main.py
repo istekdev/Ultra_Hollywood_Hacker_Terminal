@@ -7,16 +7,13 @@ def hack():
   while True:
     rng = random.getrandbits(10)
     randomhex = os.urandom(32).hex()
-    print(colored(f"{randomhex}", "green", attrs=[""]))
+    print(colored(f"{randomhex}", "green"))
     if rng == random.getrandbits(10):
-      print(colored("Successfully Hacked The Pentagon", "green", attrs=[""]))
-      break
-    else:
-      print(colored("Failed To Hack The Pentagon", "red", attrs=[""]))
+      print(colored("Successfully Hacked The Pentagon", "green"))
       break
       
-print(colored(">> Welcome To The Ultra Hollywood Hacker Terminal.", "green", attrs=[""]))
+print(colored(">> Welcome To The Ultra Hollywood Hacker Terminal.", "green"))
 time.sleep(1)
-hack = input(colored(">> ", "green", attrs=[""]))
+input(colored(">> ", "green"))
 hack()
 
