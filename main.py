@@ -11,7 +11,7 @@ def hack():
     if rng == random.getrandbits(100):
       print(colored("Successfully Hacked The Pentagon", "green"))
       break
-    elif rng == random.getrantbits(100):
+    elif rng == random.getrandbits(100):
       print(colored("Failed To Hack The Pentagon", "red"))
       break
       
