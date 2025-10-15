@@ -8,10 +8,10 @@ def hack():
     rng = random.getrandbits(10)
     randomhex = os.urandom(32).hex()
     print(colored(f"{randomhex}", "green"))
-    if rng == random.getrandbits(10):
+    if rng == random.getrandbits(100):
       print(colored("Successfully Hacked The Pentagon", "green"))
       break
-    elif rng == random.getrantbits(10):
+    elif rng == random.getrantbits(100):
       print(colored("Failed To Hack The Pentagon", "red"))
       break
       
